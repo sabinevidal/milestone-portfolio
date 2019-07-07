@@ -1,0 +1,182 @@
+/********* BASE STYLES *********/
+body {
+    font-family: 'lato', sans-serif;
+    background: #F4F1EF;
+}
+#about{
+    height: 650px;
+    background: #748CAB;
+}
+#work{
+    height: 650px;
+}
+#contact{
+    height: 400px;
+    background: #A57982;
+}
+footer {
+    background: #A57982;
+}
+
+/*********** GRID ********/
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width{
+    width: 600px;
+    float: left;
+}
+.third-width{
+    width: 400px;
+    float: left;
+}
+
+/********** HEADER *********/
+
+#home {
+    height: 800px;
+    background: url("../img/hero.png");
+    background-size: cover;
+}
+header h1{
+    font-family: 'ovo', serif;
+    font-size: 64px;
+    padding-top: 200px; 
+    margin: 0;
+    color: #424B54;
+}
+header h1 span {
+    color: #A57982;
+}
+nav {
+    float: right; 
+    padding: 5px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 18px;
+    color: #424B54;
+    padding-left: 25px; 
+}
+header h2{
+    font-family: 'lato', sans-serif;
+    font-size: 35px;
+    font-style: italic;
+    padding-right: 500px;
+    color: #424B54;
+}
+
+/************** ABOUT SECTION ************/
+
+#about .full-width {
+    padding: 20px 0;
+}
+#about h3{
+    font-family: 'ovo', serif;
+    font-size: 36px;
+    text-align: center;
+    color: #eceadf;
+}
+#about img {
+    width:400px;
+    margin: 50px 100px;
+    border: 2px solid #eceadf;
+}
+#about .half-width p {
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+    padding: 50px 100px;
+    margin: 0;
+    color: #DDD8C4;
+    font-weight: 300;
+}
+
+/************** WORK SECTION ************/
+
+#work .full-width {
+    padding: 20px 0;
+}
+#work .third-width {
+    padding-top: 50px;
+}
+#work h3{
+    font-family: 'ovo', serif;
+    font-size: 36px;
+    text-align: center;
+    color: #304469;
+}
+#work img {
+    width: 350px;
+    border: 5px solid white;
+    margin: 0 23px;
+}
+#work h4 {
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #304469;
+}
+#work p {
+    font-family: 'lato', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 23px;
+    color: #424B54;
+}
+
+/************** CONTACT SECTION ************/
+
+#contact .full-width {
+    padding: 20px 0;
+}
+#contact .third-width {
+    padding-top: 30px;
+}
+#contact h3{
+    font-family: 'ovo', serif;
+    font-size: 36px;
+    text-align: center;
+    color: #F4F1EF;
+}
+#contact h4 {
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #F4F1EF;
+}
+#contact p {
+    font-family: 'lato', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #F4F1EF;
+}
+#contact a {
+    text-decoration: none;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+    display: inline-block;
+}
+#contact ul li a {
+    color: #F4F1EF;
+    font-size: 24pt;
+    padding-left: 60px;
+}
+
+
+
+/************** FOOTER SECTION ************/
+footer {
+    color: #F4F1EF;
+    padding: 20px 0;
+    text-align: center;
+}
