@@ -7,8 +7,9 @@ body {
     height: 650px;
     background: #748CAB;
 }
-#work{
-    height: 650px;
+#portfolio{
+    overflow: auto;
+    margin-bottom: 80px;
 }
 #contact{
     height: 400px;
@@ -32,12 +33,15 @@ footer {
     float: left;
 }
 
+
 /********** HEADER *********/
 
 #home {
     height: 800px;
     background: url("../img/hero.png");
     background-size: cover;
+    display: flex;
+
 }
 header h1{
     font-family: 'ovo', serif;
@@ -49,9 +53,10 @@ header h1{
 header h1 span {
     color: #A57982;
 }
-nav {
-    float: right; 
+nav { 
     padding: 5px 25px;
+    display: flex;
+    justify-content: flex-end;
 }
 nav ul li{
     display: inline-block;
@@ -61,14 +66,14 @@ nav ul li a {
     text-decoration: none;
     font-size: 14px;
     line-height: 18px;
-    color: #424B54;
+    color: #F4F1EF;
     padding-left: 25px; 
 }
 header h2{
     font-family: 'lato', sans-serif;
     font-size: 35px;
     font-style: italic;
-    padding-right: 500px;
+    padding-right: 560px;
     color: #424B54;
 }
 
@@ -97,37 +102,46 @@ header h2{
     font-weight: 300;
 }
 
-/************** WORK SECTION ************/
+/************** PORTFOLIO SECTION ************/
 
-#work .full-width {
+#portfolio .full-width {
     padding: 20px 0;
 }
-#work .third-width {
+#portfolio .half-width {
     padding-top: 50px;
+    width: 50%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
 }
-#work h3{
+#portfolio h3{
     font-family: 'ovo', serif;
     font-size: 36px;
     text-align: center;
     color: #304469;
 }
-#work img {
+#portfolio img {
     width: 350px;
     border: 5px solid white;
     margin: 0 23px;
 }
-#work h4 {
+#portfolio h4 {
     font-family: 'lato', sans-serif;
     font-size: 18px;
     text-align: center;
     color: #304469;
 }
-#work p {
+#portfolio p {
     font-family: 'lato', sans-serif;
     font-size: 16px;
     text-align: center;
     margin: 0 23px;
     color: #424B54;
+}
+#portfolio a {
+    text-decoration: none;
 }
 
 /************** CONTACT SECTION ************/
